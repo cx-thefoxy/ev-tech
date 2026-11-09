@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EV TECH | مهندسی خودروهای برقی</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css"></head><body>
+<div id="prog"></div>
+<header><a class="logo" href="#top">EV<b>TECH</b></a><button id="burger" aria-label="منو">☰</button>
+<nav id="nav"><a href="#cars">خودروها</a><a href="#anatomy">کالبدشکافی</a><a href="#flow">جریان توان</a><a href="#compare">مقایسه</a><a href="#parts">قطعات</a><a href="#future">آینده</a></nav></header>
+<main id="top">
+<div class="hero"><div class="hero-bg"></div>
+<p class="eyebrow mono">INSIDE THE FUTURE OF ELECTRIC MOBILITY</p>
+<h1><span class="ln"><span>مهندسی خودروهای برقی،</span></span><span class="ln"><span>از درون تا آینده</span></span></h1>
+<p class="lead">باتری، موتور، اینورتر و شارژ؛ با مشخصات واقعی و توضیح‌های ساده، از داخل خودرو.</p>
+<a class="btn" href="#cars">مشاهده خودروها <span>←</span></a>
+<div class="stats"><div><b data-count="6">0</b><span>خودرو</span></div><div><b data-count="10">0</b><span>قطعه تعاملی</span></div><div><b data-count="8">0</b><span>قطعه آموزشی</span></div><div><b data-count="8">0</b><span>فناوری آینده</span></div></div></div>
+<div class="tick"><div><span>800V</span><span>LFP</span><span>NMC</span><span>SiC INVERTER</span><span>HEAT PUMP</span><span>CCS2</span><span>NACS</span><span>WLTP</span><span>EPA</span><span>REGEN BRAKING</span><span>BMS</span><span>800V</span><span>LFP</span><span>NMC</span><span>SiC INVERTER</span><span>HEAT PUMP</span><span>CCS2</span><span>NACS</span><span>WLTP</span><span>EPA</span><span>REGEN BRAKING</span><span>BMS</span></div></div>
+<section id="cars"><div class="sh reveal"><span class="no">01</span><h2>کاتالوگ خودروها</h2><p>شش مدل با مشخصات منتشرشده؛ هر عدد با سال و تریم مشخص.</p></div>
+<div class="bar"><input id="q" placeholder="جستجوی نام خودرو"><select id="fb"></select><select id="fc"></select><select id="so"><option value="">بدون مرتب‌سازی</option><option value="battery">ظرفیت باتری</option><option value="power">حداکثر توان</option></select></div><div class="grid" id="list"><p>در حال بارگذاری…</p></div></section>
+<section id="anatomy"><div class="sh reveal"><span class="no">02</span><h2>کالبدشکافی تعاملی</h2><p>روی هر قطعه کلیک کنید؛ قطعه‌های مرتبط با رنگ دیگر نشان داده می‌شوند.</p></div>
+<div id="anat"><svg id="svg" class="reveal" viewBox="0 0 800 300" role="img" aria-label="نمای جانبی شماتیک"></svg><div id="info"><p>یکی از قطعات را انتخاب کنید. طرح شماتیک است و جایگاه واقعی قطعات در هر مدل فرق دارد.</p></div></div><div class="bar" id="chips"></div></section>
+<section id="flow"><div class="sh reveal"><span class="no">03</span><h2>مسیر جریان انرژی</h2><p>از باتری تا چرخ‌ها؛ هر مرحله را انتخاب کنید.</p></div>
+<div id="fl" class="reveal"></div><div class="flow" id="fl2"></div><div id="fi">BMS و سیستم حرارتی در همه مراحل نظارت می‌کنند. یک مرحله را انتخاب کنید.</div></section>
+<section id="compare"><div class="sh reveal"><span class="no">04</span><h2>مقایسه دو خودرو</h2><p>تریم و روش اندازه‌گیری برد (WLTP یا EPA) یکسان نیست؛ مقایسه تقریبی است.</p></div><div class="bar"><select id="ca" class="sa"></select><select id="cb" class="sb"></select></div><div id="ct"></div></section>
+<section id="parts"><div class="sh reveal"><span class="no">05</span><h2>آشنایی با قطعات خودروهای برقی</h2><p>هشت قطعه کلیدی، ساده و دقیق.</p></div><div class="lib" id="lib"></div></section>
+<section id="future"><div class="sh reveal"><span class="no">06</span><h2>آینده خودروهای برقی</h2><p>بعضی تجاری‌اند و بعضی هنوز در توسعه؛ وضعیت هر کدام مشخص است.</p></div><div class="fut" id="fut"></div></section>
+</main><footer>EV TECH · پروژه آموزشی. مشخصات از اطلاعات منتشرشده گردآوری شده و بسته به بازار فرق می‌کند.</footer>
+<button id="top-btn" aria-label="بازگشت به بالا"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="trk" cx="28" cy="28" r="25"/><circle class="ring" cx="28" cy="28" r="25"/><path class="bolt" d="M30.5 15 21 29.5h6.2L25.5 41 35 26.5h-6.2z"/></svg><span class="up"><svg viewBox="0 0 24 24"><path d="M6 14l6-6 6 6"/></svg></span></button><div id="detail"></div>
+<script src="data.js"></script><script src="script.js"></script></body></html>
